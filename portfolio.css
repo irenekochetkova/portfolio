@@ -1,0 +1,49 @@
+.first-page {
+  /*background-image: url("drops.jpg");*/
+  height: 100%;
+  /*background-position: center;*/
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  padding: 170px;
+  /*text-align: center;*/
+  /*margin: 0 auto;*/
+  background: green;
+
+
+}
+
+
+.photo {
+  width: 300px;
+
+  border-radius: 50%;
+
+  border: 16px solid white;
+
+}
+
+.font {
+  color: white;
+}
+
+body {
+  height:100vh; 
+}
+
+.section1 {
+  height: 100%;
+  background: pink;
+  padding: 170px;
+
+}
+
+.section2 {
+  height: 100%;
+  background: yellow;
+  padding: 170px;
+}
+
+.icon {
+  color: white;
+   margin: 50px;
+} 
