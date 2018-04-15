@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -6,9 +6,11 @@
     <!-- <meta name="description" content=""> -->
     <!-- <meta name="author" content=""> -->
 
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
     <!-- Bootstrap CSS -->
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-
+     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
      <link rel="stylesheet" href="Portfolio.css">
      <!-- <link rel="stylesheet" type="text/css" href="mediastyle.css"> -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,28 +21,34 @@
   </head>
 
 <body>
-  
-  <!-- Navigation -->
-  <ul class="nav justify-content-end">
-    <li class="nav-item">
-      <a class="nav-link active" href="#about">About me</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#portfolio">Portfolio</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#contact">Contact</a>
-    </li>
-  </ul>
+  <header class="sticky">  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">  
+      <ul class="navbar-nav"> 
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
+  <div class="wrapper">
 
-
-  <header class="first-page ">
-    <div class="container">
+  <section class="section1" id="home">
+   <div class="container">
     <div align="center">
-      <img src="photo.png" class="photo" alt="irina">
-      <h1 class="text-uppercase font">irina kochetkova</h1>
-      <h2 class="font">Junior Software Engineer</h2>
+      <img src="photo2.png" class="photo" alt="irina"><br>
+      <hr class="hr1">
+      <h1 class="text-uppercase ">irina kochetkova</h1><br>
+      <h2 class="font">Front-End Developer and designer.</h2>
     </div><br>
     <div align="center">
      <a href="https://www.linkedin.com/in/irina-kochetkova/"><i style="font-size:35px"  class="fa fa-linkedin-square icon"></i></a>
@@ -51,13 +59,13 @@
 
     </div>
   </div>
-  </header>
+</section>
 
-  <section class="section1" id="about">
+ <section class="section2" id="about">
     <div class="container">
       <h3>About</h1>
       <hr>
-      <p>Juior Software Enginee who graduated Actualize Coding Bootcamp and Apprenticeship living now in Mountain View, CA. I enjoy building web apps, contributing to open source software, and continuously learning.</p><br>
+      <p>Front-End Developer and designer. I enjoy building web apps, contributing to open source software, and continuously learning.</p><br>
       <h3>Languages</h3>
       <hr>
       <p>JavaScript, Ruby, Python</p><br>
@@ -67,20 +75,83 @@
     </div>
   </section>
 
-  <section class="section2" id="portfolio">
+  <section class="section3" id="portfolio">
     <div class="container">
       <h3>Projects</h3>
       <hr>
+      <div class="row">
+        <div class="col-md-4 ">         
+          <img src="project_henry.png" class="img-project">
+        </div>
+        <div class="col-md-4 ">
+          <img src="project_henry.png" class="img-project">
+        </div>
+        <div class="col-md-4 ">
+          <img src="project_henry.png" class="img-project">
+        </div>      
+      </div><br>
+      <div class="row">
+        <div class="col-md-4 ">         
+          <img src="project_home.png" class="img-project">
+        </div>
+        <div class="col-md-4 ">
+          <img src="project_home.png" class="img-project">
+        </div>
+        <div class="col-md-4 ">
+          <img src="project_home.png" class="img-project">
+        </div>      
+      </div>
+      <div class="row">
+        <div class="col-md-4 ">         
+          <img src="project_home.png" class="img-project">
+        </div>
+        <div class="col-md-4 ">
+          <img src="project_home.png" class="img-project">
+        </div>
+        <div class="col-md-4 ">
+          <img src="project_home.png" class="img-project">
+        </div>      
+      </div>
     </div>
   </section>
 
+  <section class="section4" id="contact">
+    <div class="container">
+      <h3 align="center">Contact me</h3>
+      <hr class="hr1">
+      <div align="center">
+        <p>Want to get in touch with me?</p>
+        <p>Want to learn more about my skills?</p>
+        <p>Feel free to contact me anytime. </p>
+      </div>
+      <div class="row touch">
+        <div class="col-lg-4 ml-auto text-center">
+          <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
+          <p>650-000-1111</p>
+        </div>
+        <div class="col-lg-4 mr-auto text-center">
+          <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
+          <p>
+            <a href="irenekochetkova@gmail.com">irenekochetkova@gmail.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
 
 
-<!-- Optional JavaScript -->
+  <div class="footer bg-dark">
+    <p>2018</p>
+  </div>
+
+
+  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 </body>
 
 </html>
