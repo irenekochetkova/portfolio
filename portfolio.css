@@ -105,3 +105,8 @@ body {
   font-family: times new roman;
   font-style: italic;
 }
+
+.area-icon {
+  padding: 50px 50px 40px;
+  /*margin: auto;*/
+}
