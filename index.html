@@ -21,15 +21,17 @@
   </head>
 
 <body>
-  <header class="sticky">  
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">  
-      <ul class="navbar-nav"> 
-        <li class="nav-item">
-          <a class="nav-link" href="#home">Home</a>
-          </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
-          </li>
+  <header class="sticky"> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#home">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="#portfolio">Portfolio</a>
         </li>
@@ -37,7 +39,9 @@
           <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
-    </nav>
+    </div>
+  </nav>
+
   </header>
 
   <div class="wrapper">
@@ -50,7 +54,7 @@
       <h1 class=" ">Irina Kochetkova</h1><br>
       <h2 class="font">Front-End Developer and designer.</h2>
     </div>
-    <div align="center" class="area-icon">
+    <div align="center" >
      <a href="https://www.linkedin.com/in/irina-kochetkova/"><i style="font-size:35px"  class="fa fa-linkedin-square icon"></i></a>
      <a href="https://github.com/irenekochetkova"><i style="font-size:35px" class="fa fa-github-square icon"></i></a>
      <a href="https://medium.com/@irenekochetkova"><i style="font-size:35px" class="fa fa-medium icon"></i></a>
@@ -77,41 +81,44 @@
 
   <section class="section3" id="portfolio">
     <div class="container">
-      <h3>Projects</h3>
+      <h3>Projects</h3>      
       <hr>
       <div class="row">
-        <div class="col-md-4 ">         
-          <img src="project_henry.png" class="img-project">
+        <div  class="col-lg-4">
+          <a href="https://codepen.io/Irene25/pen/ZoxEEj">
+          <img src="project_build_wiki_viewer.png" class="img-project">
+          </a>
         </div>
-        <div class="col-md-4 ">
-          <img src="project_henry.png" class="img-project">
+        <div  class="col-lg-4">
+          <a href="https://codepen.io/Irene25/pen/ZoxEEj">
+          <img src="project_build_wiki_viewer.png" class="img-project">
+          </a>
         </div>
-        <div class="col-md-4 ">
-          <img src="project_henry.png" class="img-project">
-        </div>      
+       <div  class="col-lg-4">
+          <a href="https://codepen.io/Irene25/pen/erEYPe">
+          <img src="local_weather.png" class="img-project">         
+          </a>
+        </div>
       </div><br>
       <div class="row">
-        <div class="col-md-4 ">         
+        <div  class="col-lg-4">
+          <a href="https://codepen.io/Irene25/pen/qYNgje">
+          <img src="project_random.png" class="img-project">        
+          </a>
+        </div>
+        <div  class="col-lg-4">
+          <a href="https://github.com/irenekochetkova/homemade_capstone_app">
           <img src="project_home.png" class="img-project">
+          </a>
         </div>
-        <div class="col-md-4 ">
-          <img src="project_home.png" class="img-project">
+        <div  class="col-lg-4">
+          <a href="https://codepen.io/Irene25/pen/vWaRBX">
+          <img src="project_henry.png" class="img-project">         
+          </a>
         </div>
-        <div class="col-md-4 ">
-          <img src="project_home.png" class="img-project">
-        </div>      
-      </div>
-      <div class="row">
-        <div class="col-md-4 ">         
-          <img src="project_random.png" class="img-project">
-        </div>
-        <div class="col-md-4 ">
-          <img src="project_random.png" class="img-project">
-        </div>
-        <div class="col-md-4 ">
-          <img src="project_random.png" class="img-project">
-        </div>      
-      </div>
+
+
+      
     </div>
   </section>
 

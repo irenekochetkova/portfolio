@@ -1,3 +1,5 @@
+
+
 .section1 {
  
   height: 75%;
@@ -59,9 +61,9 @@
 }
 
 .img-project {
-  display:block;
+  /*display:block;*/
   width: 100%;
-  height: auto;
+  height: 160px;
 }
 .section4 {
   height: 100%;
@@ -106,7 +108,3 @@ body {
   font-style: italic;
 }
 
-.area-icon {
-  padding: 50px 50px 40px;
-  /*margin: auto;*/
-}
